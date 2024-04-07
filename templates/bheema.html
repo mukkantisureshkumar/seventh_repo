@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bheema.css' %}">
+</head>
+<body>
+    <center>
+        <h1>$$ bheema $$</h1>
+        <h2><p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis est ea quia!
+            Iure dignissimos nihil cumque molestias, magnam necessitatibus minima unde corporis iste porro 
+            nostrum, voluptas dolor minus velit.</i></p></h2>
+            <img src="{% static 'images/bheema1.jpg' %}" alt="image not found"> 
+            <img src="{% static 'images/bheema2.jpg' %}" alt="image not found"> 
+            <img src="{% static 'images/bheema3.jpg' %}" alt="image not found">
+            <h3><a href="{% url 'jackie:jackie' %}">click here to see @jackie@</a></h3>
+            <h3><a href="{% url 'julie:julie' %}">click here to see #julie#</a></h3>
+    
+        </center>
+</body>
+</html>

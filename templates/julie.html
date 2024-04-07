@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/julie.css' %}">
+</head>
+<body>
+    <center>
+        <h1>## julie ##</h1>
+        <h2><p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis est ea quia!
+            Iure dignissimos nihil cumque molestias, magnam necessitatibus minima unde corporis iste porro 
+            nostrum, voluptas dolor minus velit.</i></p></h2>
+            <img src="{% static 'images/julie1.jpg' %}" alt="image not found"> julie1
+            <img src="{% static 'images/julie2.jpg' %}" alt="image not found"> julie2
+            <img src="{% static 'images/julie3.webp' %}" alt="image not found"> julie3
+            <h3><a href="{% url 'jackie:jackie' %}">click here to see @jackie@</a></h3>
+            <h3><a href="{% url 'bheema:bheema' %}">click here to see $bheema$</a></h3>
+    
+        </center>
+</body>
+</html>
